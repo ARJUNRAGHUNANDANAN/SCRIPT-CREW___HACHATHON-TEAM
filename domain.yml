@@ -1,0 +1,84 @@
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- bot_who
+- Benefits
+- do
+- Insurance_Claim
+- Motor_Claim
+- health_insurance
+- health_claim
+- duration
+- Renewal
+templates:
+  utter_greet:
+  - text: Hello, Welcome to ABC Insuarance Virtual Assistant. How can I assist you
+      today
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye, Thank you for your time. Please feel free to come back again.
+  utter_iamabot:
+  - text: I am a virtual assistant working for Cognicor
+  utter_what_can_you_do:
+  - text: I could check up insurance coverages, benifits, time periods, renewal, and
+      much more.
+  utter_benefits:
+  - text: The benefits of ABC insurance is that we provide the best vehicle and health
+      insurance.
+  utter_customer:
+  - text: Are you a new customer?
+  utter_motor_insurance:
+  - text: 'For a motor insurance claim you would need the following documents : Copy
+      of registration book, Tax receipt, Copy of motor driving license. In case of
+      a road accident or third party property damage you would also need to provide
+      a FIR report'
+  utter_health_insurance:
+  - text: For a health insurance claim you would need to provide age proof, 2 identity
+      proofs like driver's license, final hospital bill and prescriptions of the doctor.
+  utter_length_claim:
+  - text: It usually takes a month to get an insurance claim. But sometimes it can
+      take up to 45 day. If it takes more than that you should contact our help desk
+  link_docs:
+  - text: You can link your personal documents offline and online. To link it online
+      visit our website and click on link docs. To do it offline contact a nearby
+      branch or the insurance agent.
+  utter_forgot_password:
+  - text: If you have forgot the password you could reset it twice. If you have resetted
+      it twice already try contacting the insurance agent. Do the same if you forgot
+      the user name. Please try not to lose the user credential in the future.
+  utter_sum_assured:
+  - text: The sum assured is 10% of the total annual income.
+  utter_sublimits:
+  - text: Sublimits are extra limitations in an insurance policy's coverage of certain
+      losses. Our sublimits are 10% of the insurance amount
+  utter_renewal:
+  - text: 'The approximate time for renewing your insurance policy is 270 days. We
+      will notify you when its time to renew the insurance policy. Log in to the website
+      to renew your current insurance online or contact an agent. '
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_what_can_you_do
+- utter_benfits
+- utter_benefits
+- utter_customer
+- utter_motor_insurance
+- utter_health_insurance
+- utter_vehicle_insurance
+- utter_length_claim
+- utter_length
+- link_docs
+- utter_forgot_password
+- utter_sum_assured
+- utter_sublimits
+- utter_renewal
